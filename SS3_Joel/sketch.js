@@ -1,7 +1,9 @@
 /* Joel J
 Glowing space flowers
 
-My theme for this short study was glowing space flowers. My code allows the user to plant glowing flowers in the sky sing a glowing bug
+My theme for this short study was glowing space flowers.
+ My code allows the user to plant glowing flowers in the 
+ sky using a glowing bug
 
 Instructions:
 Move the mouse to move the floating light bugs
