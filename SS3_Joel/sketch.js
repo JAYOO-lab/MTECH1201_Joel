@@ -2,7 +2,7 @@
 Glowing space flowers
 
 
-My theme for this short study was glowing space nature. My code allows the user to plant glowing flowers in the sky
+My theme for this short study was glowing space flowers. My code allows the user to plant glowing flowers in the sky sing a glowing bug
 
 Instructions:
 Move the mouse to move the floating light bugs
@@ -105,7 +105,7 @@ function drawBug() {
   bugX = lerp(bugX, mouseX, 0.05);
   bugY = lerp(bugY, mouseY, 0.05);
 
-  // add random wobble
+  // random wobble
   bugX += random(-2, 2);
   bugY += random(-2, 2);
 
