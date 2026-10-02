@@ -1,6 +1,7 @@
 /* Joel J
 Glowing space flowers
 
+
 My theme for this short study was glowing space nature. My code allows the user to plant glowing flowers in the sky
 
 Instructions:
@@ -54,7 +55,7 @@ function draw() {
   // Instructions text
   fill(255);
   textSize(16);
-  text("Click to plant a flower | Move mouse to control glowbug | Press 'c' to clear flowers", 20, 20);
+  text("Click to plant a flower | Move mouse to control glowing bug | Press 'c' to clear flowers", 20, 20);
 }
 
 // Custom function 1: Randomize stars in array
