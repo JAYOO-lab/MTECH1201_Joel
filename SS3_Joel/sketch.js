@@ -1,7 +1,6 @@
 /* Joel J
 Glowing space flowers
 
-
 My theme for this short study was glowing space flowers. My code allows the user to plant glowing flowers in the sky sing a glowing bug
 
 Instructions:
@@ -58,7 +57,7 @@ function draw() {
   text("Click to plant a flower | Move mouse to control glowing bug | Press 'c' to clear flowers", 20, 20);
 }
 
-// Custom function 1: Randomize stars in array
+// Custom function 1: Randomize stars 
 function makeStars() {
   for (let i = 0; i < 50; i++) {
     starX[i] = random(width);
@@ -66,7 +65,7 @@ function makeStars() {
   }
 }
 
-// Custom function 2: Draw a flower at a position
+// Custom function 2: Draw a flower 
 function drawFlower(x, y, size, r, g, b) {
   // stem
   stroke(50, 200, 100);
