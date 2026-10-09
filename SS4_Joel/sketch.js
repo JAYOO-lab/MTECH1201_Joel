@@ -7,6 +7,7 @@
 // -Click the mouse to reset the Squares' positions
 //Below is the Coding
 // First Square (left to right) Variables
+
 let x = 250;
 let y = 250;
 let speed = 3;
