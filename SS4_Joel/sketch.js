@@ -31,7 +31,7 @@ function draw() {
 background(bgR, bgG, bgB);
 fill(r, g, b);
 square(x, y, 100);
-//First Ball (left to right)
+//First Square (left to right)
 x = x + speed;
 if (x > 500) {
 speed = -random(3, 12);
@@ -39,7 +39,7 @@ speed = -random(3, 12);
 if (x < 0) {
 speed = random(3, 12);
 }
-//Second Ball (Up and Down)
+//Second Square (Up and Down)
 y2 = y2 + speed2;
 if (y2 > 500) {
 speed2 = -random(3, 9);
