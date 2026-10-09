@@ -2,19 +2,19 @@
 // Bouncing Squares
 
 // Instructions:
-// -Press R to change the color of the balls
+// -Press R to change the color of the Squares
 // -Press B to change the background color
-// -Click the mouse to reset the balls' positions
+// -Click the mouse to reset the Squares' positions
 //Below is the Coding
-// First Ball (left to right) Variables
+// First Square (left to right) Variables
 let x = 250;
 let y = 250;
 let speed = 3;
-// Second Ball (Up and Down) Variables
+// Second Square (Up and Down) Variables
 let x2 = 250;
 let y2 = 250;
 let speed2 = 3;
-// Base color and allows RGB color switching for the balls
+// Base color and allows RGB color switching for the squares
 let r = 150;
 let g = 255;
 let b = 0;
@@ -50,14 +50,14 @@ speed2 = random(3, 9);
 square(x2, y2, 100);
 fill(100, 50, 150);
 }
-//When you click the screen, both balls reset
+//When you click the screen, both squares reset
 function mousePressed() {
 x = 250;
 y = 250;
 x2 = 250;
 y2 = 250;
 }
-//When you press R the balls change colors together
+//When you press R the squares change color
 function keyPressed() {
   if (key === 'r') {
     r = random(255);
