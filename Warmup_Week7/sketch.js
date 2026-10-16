@@ -7,7 +7,7 @@ function setup() {
 }
 
 function draw() {
-  background(0);
+  background(225,230,210);
   if(currentScene === 0) {
     drawScene1();
   }
@@ -33,7 +33,7 @@ function drawScene1() {
 }
 // I had to look up how to say goodbye in Mandarin, So I googled it
 function drawScene2() {
-  fill(255,255,0);
+  fill(255,135,85);
   textFont("Comic Sans MS");
   textSize(20);
   text("GOODBYE, ADIOS, AU REVOIR, ZAI JIAN", 50, 250);
